@@ -25,5 +25,26 @@ console.log(total.toFixed(3));
 
 console.log(typeof total); //output: number
 
+var divide = 50/0;
+console.log(divide); //output: infinity
+
+var divide2 = -50/0;
+console.log(divide2); //output : -infinity (negative infinity)
+
+//mathematical operators
+
+var age = 35;
+age += 10; // shorthand output: 35
+age -= 10; // output: 25
+
+console.log(age);
+
+//concatenate
+
+console.log('40'+2); //output: 402 (string)
+console.log('40'-2); //output: 38 (number)
+
+
+
 
 
