@@ -43,8 +43,3 @@ console.log(age);
 
 console.log('40'+2); //output: 402 (string)
 console.log('40'-2); //output: 38 (number)
-
-
-
-
-
