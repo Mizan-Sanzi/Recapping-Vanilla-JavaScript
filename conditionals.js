@@ -97,3 +97,23 @@ else{
     console.log('Pay:', price);
 }
 
+// nested if-else
+
+const money = 0;
+
+if (money> 300){
+    console.log('Bro, you are rich');
+}
+else {
+    if(money > 100){
+        console.log('Good luck! Your are from middle class');
+    }
+    else{
+        if(money>0){
+            console.log('Bad Luck, Kola khaw!');
+        }
+        else{
+            console.log('Poverty is a silent enemy');
+        }
+    }
+}
