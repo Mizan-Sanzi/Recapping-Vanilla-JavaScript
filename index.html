@@ -1,0 +1,39 @@
+<form onsubmit="handleSubmit(event)">
+    <input type="text" name="username" required>
+    <button type="submit">Submit</button>
+  </form>
+  <button onclick="testScore(score)">Test Score</button>
+  <textarea name="" id="answer"></textarea>
+  
+  <script>
+    function handleSubmit(event) {
+      event.preventDefault(); // Prevents the default form submission
+      alert("Form submitted successfully!");
+      // Add your form handling logic here
+    }
+    let score = 60;
+    function testScore(score){
+        if (score> 50){
+        document.write('You Passed');
+    }
+    else{
+        document.write('Try again');
+    }
+    }
+
+    for (var i = 0; i < 10; i ++){
+        document.write(i);
+    }
+    
+    // while loop example from john ducket
+    var i = 1;
+    var msg = '';
+
+    while(i < 10){
+        msg += i + ' * 5 = ' + ( i * 5 ) + '<hr>' ;
+        i ++;
+    }
+document.getElementById('answer').innerHTML = msg;
+    
+  </script>
+  

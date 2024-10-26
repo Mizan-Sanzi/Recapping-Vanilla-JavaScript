@@ -26,6 +26,7 @@ for(const fruit of fruits){
 
 //while loop 
 const number = 7;
+
 if (number<10){
     console.log('Got a small number');
 }
@@ -33,6 +34,27 @@ if (number<10){
 let num = 0;
 while (num<5){
     num = num + 1;
-    console.log('Looping:', num);
+    console.log('Looping:', num); //print 1-5
 
+}
+
+let num2 = 1;
+while (num2 <10 ){
+    console.log(num2); //print 1-9
+    num2 ++;
+}
+
+let num3 = 80;
+while(num3<100){
+    console.log(num3);
+    num3 ++;
+}
+
+let num4 = 1;
+let sum = 0;
+while (num4 < 5){
+    console.log(num4);
+    sum = sum + num4;
+    console.log('sum:', sum);
+    num4 ++ ;
 }
